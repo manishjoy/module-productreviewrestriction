@@ -1,0 +1,5 @@
+
+type StoreConfig {
+    
+    review_restriction_setup_enable  : String  @doc(description: "Query by review_restriction_setup_enable.") ,
+}

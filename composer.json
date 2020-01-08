@@ -1,0 +1,25 @@
+{
+    "name": "manishjoy/module-productreviewrestriction",
+    "description": "Magento 2 Extension to restrict addition of product review to those customers who purchased the product",
+    "type": "magento2-module",
+    "version": "dev-master",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Manish Joy",
+            "email": "manishjoy1993@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ManishJoy\\ProductReviewRestriction\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

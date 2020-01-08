@@ -1,0 +1,11 @@
+<?php
+/*
+ * @var $block \ManishJoy\ProductReviewRestriction\Block\Review\Form
+ */
+?>
+<?php if($block->getCurrentCustomerId()): ?>
+    <p><?= __('You need to purchase this product to add a review.') ?></p>
+<?php else: ?>
+    <p><?= __('You need to purchase this product to add a review.') ?></p>
+    <p><?= __('Already purchased? <a href=%1 title="Login">Login</a> to add a review.', $block->getUrl('customer/account/login')) ?></p>
+<?php endif; ?>
