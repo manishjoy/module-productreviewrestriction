@@ -7,7 +7,7 @@
  - [Configuration](#configuration)
  - [Screenshots](#screenshots)
  - [Prerequisites](#prerequisites)
- - [Support The Work](#linked-my-work)
+ - [Support The Work](#liked-my-work)
  - [Feedback and Support](#feedback-and-support)
 
 
